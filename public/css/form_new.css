@@ -1,0 +1,39 @@
+body { background-color: #ffe57f; }
+.form { background-color: white; }
+.gap { height: 25px; }
+.footer { text-align: right; }
+.text { display: inline; }
+
+.ui.inverted.block.header {
+	margin-top:.5em;
+	margin-left: .75em;
+	margin-right: .75em;
+	height: 4.5em;
+	border-top-left-radius: 15px; 
+	border-bottom-right-radius: 15px;
+	background:  #ffffff;
+	color: #735035;
+	text-align: center;
+	
+}
+
+.ui.raised.segment {
+	width: 40%; left: 30%; 
+	min-width: 350px; 
+	display: block;
+	background-color: #ffcc80;
+}
+body, 
+.ui.vertical.divider { color: #696969; }
+
+.ui.segment.unknown{
+	margin-left: 1.01em; 
+	margin-right: 1.01em;
+}
+
+.signin.header{
+	margin:auto;
+	margin-top:1em;
+}
+
+.signup.header{ margin-top:1em; }

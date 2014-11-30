@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta charset="utf-8" />
+  <title>Semantic UI Sign In/Sign Up Form</title>
+  <link href="dist/semantic.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/form_new.css">
+ 
+</head>
+<body>
+  <div class="gap"></div>
+  <div class="ui raised segment signin">
+    <div class="ui inverted block header"><p class="signin header"> SIGN IN </p></div>
+    <div class="ui one column grid basic segment">
+      <div class="column">
+        <div class="ui segment">
+          <div class="ui form">
+            <div class="field">
+              <label> Username </label>
+              <div class="ui left labeled icon input">
+                <input type="text">
+                <i class="user icon"></i>
+              </div>
+            </div>
+            <div class="field">
+              <label> Password </label>
+              <div class="ui left labeled icon input">
+                <input type="password">
+                <i class="lock icon"></i>
+              </div>
+            </div>
+            <div class="inline field">
+              <div class="ui checkbox">
+                <input id="remember" type="checkbox">
+                <label for="remember"> Remember me </label>
+              </div>
+            </div>
+            <div class="ui inverted red submit button"> Sign In </div>
+          </div>  
+          <div class="ui divider"></div>
+          <div class="footer ">
+            <p><b>Not A Member?</b></p>
+            <div class="ui vertical animated mini blue button signup">
+              <div class="visible content"> Join Us </div>
+              <div class="hidden content">
+                <i class="users icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ui raised segment signup inactive">
+    <h3 class="ui inverted block header"> <p class="signup header">SIGN UP</p> </h3>
+    <div class="ui segment unknown">     
+      <div class="ui form">
+        <div class="field"> 
+          <label> Username </label>
+          <div class="ui left labeled icon input">
+            <input id="username" type="text">
+            <i class="user icon"></i>
+          </div>                            
+        </div>
+        <div class="field">
+          <label> Email </label>
+          <div class="ui left labeled icon input">
+            <input id="email" type="text">
+            <i class="mail icon"></i>
+          </div>              
+        </div>
+        <div class="field">
+          <label> Password </label>
+          <div class="ui left labeled icon input">
+            <input id="password" type="password">
+            <i class="lock icon"></i>
+          </div>                  
+        </div>
+        <div class="field">
+          <label> Confirm Password </label>
+          <div class="ui left labeled icon input">
+            <input id="confirm-password" type="password">
+            <i class="lock icon"></i>
+          </div>              
+        </div>
+        <div class="inline field">
+          <div class="ui checkbox">
+          <input id="terms" type="checkbox">
+          <label for="terms"> I agree to the <a href="#"> Terms and Conditions </a></label>
+        </div>                
+      </div>
+      <div class="ui red submit button"> Sign Up </div>
+      <div class="ui error message"></div>
+    </div>
+  </div>
+  <div class="ui divider"></div>
+  <div class="footer">
+    <p><b>Already a Member?</b></p>
+    <div class="ui vertical animated blue mini button signin">
+      <div class="visible content"> Log In </div>
+      <div class="hidden content">
+        <i class="sign in icon"></i>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="js/jquery.js"></script>
+  <script src="dist/semantic.js" ></script>
+  <script src="js/form.js" ></script>
+ 
+     
+</body>
+</html>
